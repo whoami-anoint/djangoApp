@@ -12,7 +12,10 @@ def index(request):
     # return HttpResponse("This is homepage")
 
 def about(request):
-    return HttpResponse("I am Abhishek Kafle")
+    return render(request,'about.html')
 
 def services(request):
-    return HttpResponse("Icecream lelo")
+    return request(request,'services.html')
+
+def contact(request):
+    return request(request,'contact.html')
