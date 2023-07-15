@@ -10,3 +10,13 @@
 - Added two folders
     - static
     - templates
+
+- Added Manually in settings.py : 
+
+``STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    "/var/www/static/",
+]
+``
+
+- To get secret key; ``grep -Inr SECRET_KEY *``
