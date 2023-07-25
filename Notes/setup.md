@@ -3,6 +3,10 @@
 -  Specific subcommand. 
 ``python manage.py``
 
+- To change port number:
+- `888 to 5555 `
+- `` python manage.py runserver 5555``
+
 - `python manage.py startapp home `
 - Create <b>urls.py</b> at home
 - Create your views here in views.py
